@@ -1,0 +1,68 @@
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background:black;
+    }
+    .button
+    {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin: 2px;
+        cursor: pointer;
+        background: rgb(31, 29, 29);
+        color: chartreuse;
+        border: none;
+    }
+    .button:hover
+    {
+        border: dotted 2px chartreuse;
+        transform: scaleY(1.1);
+    }
+
+    .textview
+    {
+        width: 203px;
+        margin: 5px;
+        font-size: 25px;
+        padding: 5px;
+        background: rgb(31, 29, 29);
+        border: solid 2px chartreuse;
+        color: chartreuse;
+
+    }
+    .main
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .footer
+    {
+	width: 99.9%;
+	background-color: black;
+	background-size: cover;
+	border: 1px white;
+	border-style: dotted;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    }
+    p
+    {
+	text-align: center;
+	color: chartreuse;
+	font-size: 1.4rem;
+	padding: 15px;
+    }
+    p a
+    {
+	color: chartreuse;
+    }
+
